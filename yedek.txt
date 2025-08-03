@@ -1,0 +1,27 @@
+[PARAMS]
+blur_val = 31
+contrast = 2.7
+saturation = 0.0
+brightness = 50
+video_file = /dev/video0
+
+[HSV]
+lower_h = 0
+lower_s = 0
+lower_v = 0
+upper_h = 30
+upper_s = 30
+upper_v = 197
+
+[COMMANDS]
+forward = HF 30 5000
+turn_right = T 90
+turn_left = T -90
+right = H+ 10 10000
+left = H- 10 10000
+stop = AS
+
+[COMM]
+baud_rate = 57600
+serial_port = /dev/ttyACM0
+serial_enabled = 1
